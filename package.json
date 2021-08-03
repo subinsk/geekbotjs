@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "fs": "*",
+    "images-scraper": "^6.3.0",
+    "mongoose": "^5.13.5",
+    "nodemon": "^2.0.12",
+    "typescript": "^4.3.5"
+  },
+  "name": "geekbotjs",
+  "description": "",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subinsk/geekbotjs.git"
+  },
+  "author": "subinsk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/subinsk/geekbotjs/issues"
+  },
+  "homepage": "https://github.com/subinsk/geekbotjs#readme"
+}
