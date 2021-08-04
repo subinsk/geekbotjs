@@ -1,4 +1,4 @@
-module.exports=(bot,message)=>{
+module.exports=(Discord,bot,message)=>{
    
         bot.on("guildMemberAdd", function (member) {
             member.guild.channels.find("name", "general").send(member.toString() + ` Welcome to ${member.guild.name}`);

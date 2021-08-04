@@ -1,6 +1,6 @@
 module.exports={
     name:'image',
-    description:'This sends a image',
+    description:'This sends a image on based on query',
     async execute(bot,message, args){
         const image_query = args.join(' ');
         var Scrapper = require('images-scraper');

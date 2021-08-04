@@ -1,4 +1,4 @@
-module.exports=(Discord,bot,message)=>{
+module.exports=(Discord,bot,message,Levels)=>{
     const prefix='>';
     if(!message.content.startsWith(prefix)|| message.author.bot) return;
 
@@ -7,5 +7,5 @@ module.exports=(Discord,bot,message)=>{
 
     const command = bot.commands.get(cmd);
 
-    if(command) command.execute(bot, message,args,Discord);
+    if(command) command.execute(bot, message,args,Discord,Levels);
 }
