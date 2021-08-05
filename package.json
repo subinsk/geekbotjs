@@ -1,12 +1,15 @@
 {
   "dependencies": {
+    "axios": "^0.21.1",
     "canvacord": "^5.2.3",
+    "crypto": "^1.0.1",
     "discord.js": "^12.5.3",
     "dotenv": "^10.0.0",
     "fs": "*",
     "images-scraper": "^6.3.0",
     "mongoose": "^5.13.5",
     "nodemon": "^2.0.12",
+    "request": "^2.88.2",
     "typescript": "^4.3.5"
   },
   "name": "geekbotjs",

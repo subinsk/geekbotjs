@@ -1,7 +1,8 @@
+const Levels=require('../discordXP') 
 module.exports = {
     name: 'ranks',
     description: 'Show rank of member',
-    async execute(bot, message, args, Discord,Levels) {
+    async execute(bot, message, args, Discord) {
         const target = message.mentions.users.first() || message.author; 
         console.log(target);
         try{
