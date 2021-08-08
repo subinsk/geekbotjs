@@ -1,6 +1,7 @@
 require('dotenv').config()
 var fs = require('fs');
 const settings = require('./settings.json')
+const keepAlive=require('./server')
 const Discord = require('discord.js')
 const Levels = require('./discordXP')
 
@@ -14,8 +15,10 @@ bot.login(process.env.DISCORD_TOKEN)
 
 // Loading bot commands
 bot.commands = new Discord.Collection();
-bot.events=new Discord.Collection();
+bot.events = new Discord.Collection();
 
-['commandHandler','eventHandler'].forEach(handler=>{
-  require(`./handlers/${handler}`)(bot,Discord,Levels);
+['commandHandler', 'eventHandler'].forEach(handler => {
+  require(`./handlers/${handler}`)(bot, Discord, Levels);
 })
+
+keepAlive()

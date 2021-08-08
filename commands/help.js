@@ -30,7 +30,6 @@ module.exports={
                            +'>technews - Latest Tech related News\n\n'
                            +'>avatar *@taggedUser* - To get URL for your Discord Avatar \n\n'
                            +'>rank *@taggedUser* - To get your present rank \n\n'
-                           +'>image *imageQuery* - To get an image related to the query \n\n'
                            +'>ping  - Something interesting ;) \n\n'
                            +'>help  - For help related to Bot and Commands ;) \n\n'
                     }
