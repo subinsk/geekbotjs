@@ -48,7 +48,7 @@ async function main(){
 module.exports = (Discord, bot) => {
     // Ready
     console.log('Bot is ready!');
-    bot.user.setActivity('>ping', { type: 'LISTENING' }).catch(console.error);
+    bot.user.setActivity('>help', { type: 'LISTENING' }).catch(console.error);
     
     const channel01 = bot.channels.cache.find(channel => channel.id == '857140573302423575');
 
@@ -70,10 +70,8 @@ module.exports = (Discord, bot) => {
 
                     {
                         name: tech[i].title,
-                        value: tech[i].description,
-                        image: {
-                            url: tech[i].urlToImage,
-                        },
+                        value: `${tech[i].description}\n${tech[i].urlToImage}`,
+                      
                         inline: false
                     },
 
