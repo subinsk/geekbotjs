@@ -110,9 +110,4 @@ module.exports = (Discord, bot) => {
         dailyEmbed = await getEmbed();
         channel01.send({ embed: dailyEmbed });
     }
-    main1();
-    setInterval(()=>{
-        main1();
-
-    },21600000)
 }
