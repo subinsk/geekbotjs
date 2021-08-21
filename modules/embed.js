@@ -18,13 +18,6 @@ async function getEmbed(Title,Field) {
             },
 
             fields: Field,
-
-            field: {
-                name: '\u200b',
-                value: '\u200b',
-                inline: false,
-            },
-
             timestamp: new Date(),
 
             footer: {
