@@ -27,20 +27,15 @@ module.exports={
                         name:'Commands:\n',
                         value:
                             '>codeforces - Latest Codeforces Contest Details\n\n'
+                           + '>github *<GitHub Account Username>* - GitHub profile details of the specified Username \n\n'
+                           +'>stackoverflow *<your query>* - StackOverflow Answers to your Query\n\n'
                            +'>technews - Latest Tech related News\n\n'
                            +'>avatar *@taggedUser* - To get URL for your Discord Avatar \n\n'
                            +'>rank *@taggedUser* - To get your present rank \n\n'
-                           +'>ping  - Something interesting ;) \n\n'
+                           +'>ping  - Ping \n\n'
                            +'>help  - For help related to Bot and Commands ;) \n\n'
                     }
                 ],
-
-                field: {
-                    name: '\n ',
-                    value: '\n ',
-                    inline: false,
-                },
-
                 timestamp: new Date(),
 
                 footer: {
