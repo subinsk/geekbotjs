@@ -21,7 +21,7 @@
   "main": "app.js",
   "devDependencies": {},
   "scripts": {
-    "start": "node app.js"
+    "start": "LD_PRELOAD='/opt/app-root/src/node_modules/sharp/vendor/lib/libz.so' node app.js"
   },
   "repository": {
     "type": "git",
